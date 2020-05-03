@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "shitcoding_brain_games"
-version = "0.1.1-1"
-description = ""
-authors = ["Shitcoder <shitcoder@pm.me>"]
+version = "0.1.2"
+description = "Shitcoding project #1: Brain Games"
+authors = ["Shitcoder"]
 packages = [
   { include = "brain_games" },
 ]
