@@ -1,3 +1,0 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/6f06129c524c901a745f/maintainability)](https://codeclimate.com/github/shitcoding/python-project-lvl1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/6f06129c524c901a745f/test_coverage)](https://codeclimate.com/github/shitcoding/python-project-lvl1/test_coverage) [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide) [![Build Status](https://travis-ci.org/shitcoding/python-project-lvl1.svg?branch=master)](https://travis-ci.org/shitcoding/python-project-lvl1)
-
-# python-project-lvl1
