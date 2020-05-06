@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shitcoding_brain_games"
+version = "0.1.2"
+description = "Shitcoding project #1: Brain Games"
+authors = ["Shitcoder"]
+packages = [
+  { include = "brain_games" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+prompt = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.14.0"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
