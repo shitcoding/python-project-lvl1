@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shitcoding_brain_games"
-version = "0.1.3"
+version = "0.1.4"
 description = "Shitcoding project #1: Brain Games"
 authors = ["Shitcoder"]
 packages = [
@@ -13,9 +13,12 @@ prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 wemake-python-styleguide = "^0.14.0"
+rope = "^0.17.0"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
