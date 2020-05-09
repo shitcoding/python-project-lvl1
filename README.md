@@ -13,6 +13,8 @@ Copy/paste the following code to your terminal application and run it to install
 
 Use the following commands to run the games:
 * brain-even - to run Brain Even game
+* brain-calc - to run Brain Calculate game
+* brain-gcd - to run Brain Greatest Common Diviser game
 
 ---
 **Asciinema video of package installation process:**

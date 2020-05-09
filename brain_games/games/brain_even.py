@@ -4,10 +4,9 @@
 
 from random import randint
 
-from brain_games import cli
+from brain_games import cli, game_settings
 
 GAME_RULES = 'Answer "yes" if number even otherwise answer "no".'
-N_ANSWERS_TO_WIN = 3
 
 
 def brain_even_round(n_answers_to_win, player_name='User'):
@@ -44,7 +43,7 @@ def main():
     """Brain Even game main function."""
     cli.welcome_message(GAME_RULES)
     player_name = cli.greet_user()
-    brain_even_round(N_ANSWERS_TO_WIN, player_name)
+    brain_even_round(game_settings.n_answers_to_win, player_name)
 
 
 if __name__ == '__main__':

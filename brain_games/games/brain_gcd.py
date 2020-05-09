@@ -1,23 +1,16 @@
 # -*- coding:utf-8 -*-
 
-"""Brain Calculate game logic."""
+"""Greatest Common Divisor game logic."""
 
-import operator
 from random import randint
 
 from brain_games import cli, game_settings
 
-GAME_RULES = 'What is the result of the expression?'
-
-OPS = {         # Operations to use in the game
-    '+': operator.add,
-    '-': operator.sub,
-    '*': operator.mul,
-}
+GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def brain_calc_round(n_answers_to_win, player_name='User'):
-    """Run a round of Brain Calc game.
+def brain_gcd_round(n_answers_to_win, player_name='User'):
+    """Run a round of Greatest Common Divisor game.
 
     Parameters:
         n_answers_to_win: Number of correct answers to win.
@@ -29,9 +22,14 @@ def brain_calc_round(n_answers_to_win, player_name='User'):
     """
     while n_answers_to_win:
         rand_num1, rand_num2 = (randint(0, 100), randint(0, 100))
-        rand_op = list(OPS)[randint(0, len(OPS) - 1)]
-        print('Question: {0} {1} {2}'.format(rand_num1, rand_op, rand_num2))
-        correct_answer = OPS[rand_op](rand_num1, rand_num2)
+        print('Question: {0} {1}'.format(rand_num1, rand_num2))
+        a, b = (rand_num1, rand_num2)   # Euclidean GCD algorithm
+        while a and b:
+            if a > b:
+                a = a % b
+            else:
+                b = b % a
+        correct_answer = a + b
         player_answer = cli.prompt.integer('Your answer: ')
         if player_answer == correct_answer:
             print('Correct!')
@@ -46,10 +44,10 @@ def brain_calc_round(n_answers_to_win, player_name='User'):
 
 
 def main():
-    """Brain Calculate game main function."""
+    """Greatest Common Divisor game main function."""
     cli.welcome_message(GAME_RULES)
     player_name = cli.greet_user()
-    brain_calc_round(game_settings.n_answers_to_win, player_name)
+    brain_gcd_round(game_settings.n_answers_to_win, player_name)
 
 
 if __name__ == '__main__':
