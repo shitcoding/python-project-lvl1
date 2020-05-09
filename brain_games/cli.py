@@ -5,9 +5,14 @@
 import prompt
 
 
-def welcome_message():
-    """Print welcome message."""
-    print('Welcome to the Brain Games!')  # noqa: WPS421
+def welcome_message(game_rules):
+    """Print welcome message and game rules.
+
+    Parameters:
+        game_rules: GAME_RULES of particular Brain Game to print.
+    """
+    print('Welcome to the Brain Games!')
+    print(game_rules, end='\n\n')
 
 
 def greet_user():
@@ -17,5 +22,5 @@ def greet_user():
         player_name: name entered by user.
     """
     player_name = prompt.string('May I have your name? ')
-    print('Hello, {0}!'.format(player_name))  # noqa: WPS421
+    print('Hello, {0}!'.format(player_name))
     return player_name
