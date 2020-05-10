@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "shitcoding_brain_games"
-version = "0.2.2"
+version = "0.2.3"
 description = "Shitcoding project #1: Brain Games"
 authors = ["Shitcoder"]
 packages = [
   { include = "brain_games" },
 ]
+repository = 'https://github.com/shitcoding/python-project-lvl1'
 
 [tool.poetry.dependencies]
 python = "^3.8"
