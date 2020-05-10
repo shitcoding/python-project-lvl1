@@ -2,4 +2,4 @@
 
 """Brain Games logic files."""
 
-from brain_games.games import calc, even, gcd, progression
+from brain_games.games import calc, even, gcd, prime, progression
