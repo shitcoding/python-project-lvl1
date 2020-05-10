@@ -2,8 +2,11 @@
 
 # python-project-lvl1
 Shitcoding Brain Games project.
-Includes the following games:
-* Brain Even
+Includes following mind games:
+* Even
+* Calculate
+* Greatest Common Divisor
+* Progression
 
 ---
 ## Installation manual
@@ -12,9 +15,10 @@ Copy/paste the following code to your terminal application and run it to install
 `pip install -i https://test.pypi.org/simple/ shitcoding-brain-games --extra-index-url https://pypi.org/simple/`
 
 Use the following commands to run the games:
-* brain-even - to run Brain Even game
-* brain-calc - to run Brain Calculate game
-* brain-gcd - to run Brain Greatest Common Diviser game
+* brain-even - to run Even game
+* brain-calc - to run Calculate game
+* brain-gcd - to run Greatest Common Divisor game
+* brain-progression - to run Progression game
 
 ---
 **Asciinema video of package installation process:**

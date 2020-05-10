@@ -1,18 +1,8 @@
 # -*- coding:utf-8 -*-
 
-"""Brain Games script."""
+"""Brain Games CLI printouts and prompts."""
 
 import prompt
-
-
-def welcome_message(game_rules):
-    """Print welcome message and game rules.
-
-    Parameters:
-        game_rules: GAME_RULES of particular Brain Game to print.
-    """
-    print('Welcome to the Brain Games!')
-    print(game_rules, end='\n\n')
 
 
 def greet_user():
@@ -24,3 +14,16 @@ def greet_user():
     player_name = prompt.string('May I have your name? ')
     print('Hello, {0}!'.format(player_name))
     return player_name
+
+
+# Templates of dialog strings
+QUESTION = 'Question: {0}'
+
+
+WRONG_ANSWER = "'{0}' is wrong answer ;(. Correct answer was '{1}'."
+
+
+TRY_AGAIN = "Let's try again, {0}!"
+
+
+CONGRATS = 'Congratulations, {0}!'

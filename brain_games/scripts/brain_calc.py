@@ -1,8 +1,14 @@
-# -*- coding:utf-8 -*-
+#!/usr/bin/env python3
 
-"""Brain Calculate game script."""
+"""Run Calculate game."""
 
-from brain_games.games.brain_calc import main
+from brain_games import engine, games
+
+
+def main():
+    """Run Calculate game."""
+    engine.run(games.calc)
+
 
 if __name__ == '__main__':
     main()
