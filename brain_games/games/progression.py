@@ -16,7 +16,7 @@ def make_round():
     """
     num1 = randint(0, 100)
     step = randint(1, 10)
-    hidden_index = randint(0, 10)
+    hidden_index = randint(0, 9)
     progr_length = 0
     progression = ''
     while progr_length < 10:
