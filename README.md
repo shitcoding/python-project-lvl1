@@ -21,5 +21,25 @@ Use the following commands to run the games:
 * brain-progression - to run Progression game
 
 ---
-**Asciinema video of package installation process:**
-[![asciicast](https://asciinema.org/a/PIV7CEuDkCBcv1GniQK2j5nnQ.svg)](https://asciinema.org/a/PIV7CEuDkCBcv1GniQK2j5nnQ)
+### Asciinema video of package installation process:
+[![asciicast](https://asciinema.org/a/328965.svg)](https://asciinema.org/a/328965)
+
+
+### Even game process:
+[![asciicast](https://asciinema.org/a/328970.svg)](https://asciinema.org/a/328970)
+
+
+### Calculate game process:
+[![asciicast](https://asciinema.org/a/328972.svg)](https://asciinema.org/a/328972)
+
+
+### Greatest Common Divisor game process:
+[![asciicast](https://asciinema.org/a/328975.svg)](https://asciinema.org/a/328975)
+
+
+### Progression game process:
+[![asciicast](https://asciinema.org/a/328985.svg)](https://asciinema.org/a/328985)
+
+
+### Prime Number game process:
+[![asciicast](https://asciinema.org/a/328987.svg)](https://asciinema.org/a/328987)
