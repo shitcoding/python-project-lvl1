@@ -7,6 +7,7 @@ Includes following mind games:
 * Calculate
 * Greatest Common Divisor
 * Progression
+* Prime Number
 
 ---
 ## Installation manual
@@ -19,9 +20,10 @@ Use the following commands to run the games:
 * brain-calc - to run Calculate game
 * brain-gcd - to run Greatest Common Divisor game
 * brain-progression - to run Progression game
+* brain-prime - to run Prime Number game
 
 ---
-### Asciinema video of package installation process:
+## Video of package installation process:
 [![asciicast](https://asciinema.org/a/328965.svg)](https://asciinema.org/a/328965)
 
 
